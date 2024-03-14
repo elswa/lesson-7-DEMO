@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/default.css" />
+    <title>Lesson 7: DEMO</title>
+  </head>
+  <body>
+    <header class="position__fixed">
+      <a href="index.html"
+        ><img
+          src="./assets/airplane-svgrepo-com.svg"
+          alt="website airplane icon"
+        />
+      </a>
+      <nav>
+        <a href="index.html">Position</a>
+        <a href="pages/blog.html">Blog</a>
+      </nav>
+    </header>
+    <main>
+      <section class="position__section">
+        <h2>Static: The default value</h2>
+        <p>
+          This property will not work with the top, left, right, bottom
+          properties
+        </p>
+        <article>
+          <div></div>
+          <div class="static"></div>
+          <div></div>
+        </article>
+      </section>
+      <section class="position__section">
+        <h2>Relative</h2>
+        <p>
+          This property will keep the element in the normal flow of elements, it
+          can be used with top, left, right, bottom properties
+        </p>
+        <article>
+          <div></div>
+          <div class="relative"></div>
+          <div></div>
+        </article>
+      </section>
+      <section class="position__section">
+        <h2>Absolute</h2>
+        <ul>
+          <li>
+            This property will place the element outside of the normal flow of
+            elements, it can be used with top, left, right, bottom properties
+          </li>
+          <li>
+            This will position elements relative to the nearest positioned
+            ancestor(meaning: an element with a position set to anything other
+            than static or the intial containing block if none is found)
+          </li>
+        </ul>
+        <article>
+          <div></div>
+          <div class="absolute">absolute</div>
+          <div></div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

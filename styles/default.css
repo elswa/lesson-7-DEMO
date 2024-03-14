@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  background-color: #245501;
+  width: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+.position__section {
+  border: 1px solid black;
+  margin: 2rem 0.5rem;
+  padding: 0.5rem 1rem;
+}
+h2 {
+  text-decoration: underline #143601;
+}
+
+article {
+  display: flex;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  margin: 1rem 1rem;
+  background-color: #538d22;
+  border: 1px solid #143601;
+}
+
+div:nth-child(2) {
+  background-color: #aad576;
+}
+
+.hero {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-image: url("https://images.unsplash.com/photo-1682695794816-7b9da18ed470?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__title {
+  color: #cee3b5;
+  font-size: 3rem;
+}
+
+.blog__main {
+  padding: 1rem 2rem;
+}
+.blog__text {
+  margin-bottom: 1rem;
+}
+.blog__list-item {
+  margin-bottom: 1rem;
+}
